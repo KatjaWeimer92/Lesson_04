@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Письмо Санте</title>
+</head>
+<body>
+    <h1>Письмо Санте</h1>
+    <p>Дорогой друг не стесняйся и расскажи Санте о том, кто ты и о том, что ты хочешь получить на Рождество.</p>
+    <form method="get" id="contact-form">
+<div>
+    <label for="text">
+     <input id="Логин" type="text" placeholder="Логин" required>
+    </label>
+</div>
+<br>
+<div>
+    <label for="">
+        <input type="password" placeholder="Пароль" required>
+    </label>
+</div>
+<br>
+<div>
+    <label for="">
+        <input type="text" placeholder="Имя" required>
+    </label>
+</div>
+<br>
+<div>
+   Пол: 
+   <div>
+    <br>
+    <input id="gender" type="radio" name="gender" value="Мальчик">
+    <label for="gender">Мальчик</label>
+    <input id="gender1" type="radio" name="gender" value="Девочка">
+    <label for="gender1">Девочка</label>
+   </div>
+</div>
+<br>
+<div>
+    <label for="birth-day">Дата рождения: 
+        <input type="date" name="birth-date" id="birth-day">
+    </label>
+</div>
+<br>
+<div>
+    <label for="cities">
+    <select name="cities" id="cities">
+        <option value="moskow">Москва</option>
+        <option value="london">Лондон</option>
+        <option value="new_york">Нью-Йорк</option>
+        <option value="sankt_peterburg">Санкт-Петербург</option>
+        <option value="hamburg">Гамбург</option>
+        <option value="berlin">Берлин</option>
+    </select>
+</label>
+</div>
+<div>
+    Выбери цвет своей новой игрушки: 
+    <div>
+        <br>
+        <input type="color" name="color" id="favorite-color">
+        <label for="favorite-color">Шапочка</label>
+    </div>
+    <div>
+        <input type="color" name="color" id="favorite-color1">
+        <label for="favorite-color">Костюм</label>
+    </div>
+</div>
+<br>
+<div>
+    Ты был хорошим ребенком?
+    <div>
+        <br>
+        <input id="antwort" type="radio" name="antwort" value="да">
+        <label for="antwort">Да</label>
+        <input id="antwort1" type="radio" name="antwort" value="нет">
+        <label for="antwort1">Нет</label>
+    </div>
+    </div>
+    <br>
+<div>
+    <button id="santa" type="submit" formaction="./greetings.html">Отправить письмо Санте</button>
+</div>
+</form>
+</body>
+</html>
